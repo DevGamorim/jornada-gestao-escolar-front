@@ -5,7 +5,7 @@ const Pessoas_REST_API_URL = "http://localhost:8080/pessoa"
 class PessoasService {
 
     getPessoas(){
-        axios.get(Pessoas_REST_API_URL)
+        return axios.get(Pessoas_REST_API_URL)
     }
 }
 
